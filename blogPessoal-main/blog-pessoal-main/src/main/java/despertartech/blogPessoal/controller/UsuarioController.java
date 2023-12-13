@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import despertartech.blogPessoal.model.Usuario;
-import despertartech.blogPessoal.model.UsuarioLogin;
-import despertartech.blogPessoal.repository.UsuarioRepository;
-import despertartech.blogPessoal.service.UsuarioService;
+import despertartech.blogAquiTem.model.Usuario;
+import despertartech.blogAquiTem.model.UsuarioLogin;
+import despertartech.blogAquiTem.repository.UsuarioRepository;
+import despertartech.blogAquiTem.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")
