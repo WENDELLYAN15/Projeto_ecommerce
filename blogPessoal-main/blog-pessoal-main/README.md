@@ -1,2 +1,2 @@
 # blogAquiTem-api
-API para blog pessoal, consumo em Angular.
+API para blog AquiTeml, consumo em Angular.
