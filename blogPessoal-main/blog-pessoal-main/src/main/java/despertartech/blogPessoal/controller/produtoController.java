@@ -21,7 +21,7 @@ import despertartech.blogAquiTem.repository.produtoRepository;
 @RestController
 @RequestMapping("/produtos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-public class PostagemController {
+public class produtoController {
 	
 	@Autowired
 	private produtoRepository repositoty;
