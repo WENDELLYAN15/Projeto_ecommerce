@@ -1,4 +1,4 @@
-package despertartech.blogPessoal.model;
+package despertartech.blogAquiTem.model;
 
 import java.util.Date;
 
