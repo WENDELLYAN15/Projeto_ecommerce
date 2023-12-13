@@ -16,8 +16,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sun.istack.NotNull;
 
 @Entity
-@Table(name = "postagem")
-public class Postagem {
+@Table(name = "prduto")
+public class produto {
 	
 	@Id	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,11 +38,11 @@ public class Postagem {
     private Date data = new java.sql.Date(System.currentTimeMillis());
 	
 	@ManyToOne
-	@JsonIgnoreProperties("postagem")
+	@JsonIgnoreProperties("produto")
 	private Tema tema;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("postagem")
+	@JsonIgnoreProperties("produto")
 	private Usuario usuario;
 
 	public long getId() {
@@ -77,12 +77,12 @@ public class Postagem {
 		this.data = data;
 	}
 	
-	public Tema getTema() {
-		return tema;
+	public Tema getcategoria() {
+		return categoria;
 	}
 	
-	public void setTema(Tema tema) {
-		this.tema = tema;
+	public void setcategoria(categoria categoria) {
+		this.categoria =categoria;
 	}
 
 	public Usuario getUsuario() {
