@@ -43,7 +43,7 @@ public class Usuario {
 	
 	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("usuario")
-	private List<Postagem> produto;
+	private List<produto> produto;
 
 
 	public long getId() {
