@@ -1,4 +1,4 @@
-package despertartech.blogPessoal.model;
+package despertartech.blogAquiTem.model;
 
 public class UsuarioLogin {
 	
