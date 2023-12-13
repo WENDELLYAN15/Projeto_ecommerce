@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.stereotype.Repository;
 
-import despertartech.blogPessoal.model.produto;
+import despertartech.blogAquiTem.model.produto;
 
 @Repository
 public interface produtoRepository extends JpaRepository<produto, Long> {	
