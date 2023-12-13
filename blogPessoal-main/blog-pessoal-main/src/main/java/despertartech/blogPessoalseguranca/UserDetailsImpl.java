@@ -1,4 +1,4 @@
-package despertartech.blogPessoalseguranca;
+package despertartech.blogAquiTemseguranca;
 
 import java.util.Collection;
 import java.util.List;
