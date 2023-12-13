@@ -15,16 +15,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import despertartech.blogPessoal.model.Tema;
-import despertartech.blogPessoal.repository.TemaRepository;
+import despertartech.blogPessoal.model.categoria;
+import despertartech.blogPessoal.repository.categoriaRepository;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping("/tema")
-public class TemaController {
+@RequestMapping("/categoria")
+public class categoriaController {
 	
 	@Autowired
-	private TemaRepository repository;
+	private categoriaRepository repository;
 	
 	@GetMapping
 	public ResponseEntity<List<Tema>> getAll(){
@@ -43,14 +43,14 @@ public class TemaController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<Tema> post (@RequestBody Tema tema){
+	public ResponseEntity<categoria> post (@RequestBody categoria categoria){
 		return ResponseEntity.status(HttpStatus.CREATED)
-				.body(repository.save(tema));
+				.body(repository.save(categoria));
 	}
 
 	@PutMapping
-	public ResponseEntity<Tema> put (@RequestBody Tema tema){
-		return ResponseEntity.ok(repository.save(tema));				
+	public ResponseEntity<categoria> put (@RequestBody categoria categoria){
+		return ResponseEntity.ok(repository.save(categoria));				
 	}
 	
 	@DeleteMapping("/{id}")
