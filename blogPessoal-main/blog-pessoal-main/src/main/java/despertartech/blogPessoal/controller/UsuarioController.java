@@ -1,4 +1,4 @@
-package despertartech.blogPessoal.controller;
+package despertartech.blogAquiTem.controller;
 
 import java.util.List;
 import java.util.Optional;
