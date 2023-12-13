@@ -1,4 +1,4 @@
-package despertartech.blogPessoal.repository;
+package despertartech.blogAquiTem.repository;
 
 import java.util.List;
 
