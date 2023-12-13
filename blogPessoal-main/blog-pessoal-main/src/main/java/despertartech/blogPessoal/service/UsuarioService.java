@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import despertartech.blogPessoal.model.Usuario;
-import despertartech.blogPessoal.model.UsuarioLogin;
-import despertartech.blogPessoal.repository.UsuarioRepository;
+import despertartech.blogAquiTem.model.Usuario;
+import despertartech.blogAquiTem.model.UsuarioLogin;
+import despertartech.blogAquiTem.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
