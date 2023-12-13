@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import despertartech.blogPessoal.model.produto;
-import despertartech.blogPessoal.repository.produtoRepository;
+import despertartech.blogAquiTem.model.produto;
+import despertartech.blogAquiTem.repository.produtoRepository;
 
 @RestController
 @RequestMapping("/produtos")
